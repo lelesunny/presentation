@@ -1,0 +1,4 @@
+*This is bold*
+`This is italic`
+_This is underline_
+Testing `file4` _*underline*_
