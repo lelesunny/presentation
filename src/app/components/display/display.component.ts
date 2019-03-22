@@ -11,7 +11,7 @@ export class DisplayComponent implements OnInit {
 
   constructor(private displayService: DisplayService) { }
   content : any;
-  files : string[] = ['file1.txt', 'file2.txt', 'file3.txt', 'file4.json', 'file6.txt'];
+  files : string[] = ['file1.txt', 'file2.txt', 'file3.txt', 'file4.json', 'file5.txt'];
   fileIndex :  number = -1;
   progressValue : number = 0;
   ifJSON : boolean = false;
