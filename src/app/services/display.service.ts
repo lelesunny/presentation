@@ -3,7 +3,7 @@ import { Observable} from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  //this line means this service is singleton
+  //root injector, for making that instance available across the application.
   providedIn: 'root'
 })
 export class DisplayService {
